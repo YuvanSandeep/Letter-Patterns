@@ -54,6 +54,13 @@ for i in range (n):
 
 n = 27
 number = 0
-for i in range (n):
+for i in range (n-1,0, -1):
+        print ((n-i)*" ", end = " ")
+        print (i *(Alphabet[number]))
+        number = 0
+
+n = 10
+number = 0
+for i in range (n-1,0,-1):
     print ((n-i)*" ", end = "")
-    print (2 * (i * (Alphabet[number])))
+    print (i*(Alphabet[number]))
